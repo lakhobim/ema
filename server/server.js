@@ -22,7 +22,7 @@ var express = require("express");
 var url = require("url");
 //endregion
 //region Constants
-var PORT = Number(process.env.PORT || 3000);
+var PORT = Number(process.env.PORT || 8089);
 var FILES_PATH = path.join(__dirname, '../files');
 var SPEED_TICK_TIME = 750; //ms
 //endregion
